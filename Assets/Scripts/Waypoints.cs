@@ -9,6 +9,6 @@ public class Waypoints : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.magenta;
-        Gizmos.DrawSphere(transform.position, _GizmosRadius);
+        Gizmos.DrawWireSphere(transform.position, _GizmosRadius);
     }
 }
