@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 386a910f74747384b9e74c6d8e2fa112, type: 2}
+  - {fileID: 2100000, guid: b4f4107ef12e4b24d8093f9c1f9a6359, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 805a1a690313d9547b7f2385b9e576ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _prefab: {fileID: 0}
+  _prefab: {fileID: 4830275181740586110}
   _waypoints:
   - {fileID: 0}
   - {fileID: 0}
