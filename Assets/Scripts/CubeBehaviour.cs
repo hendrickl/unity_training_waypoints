@@ -26,7 +26,7 @@ public class CubeBehaviour : MonoBehaviour
         {
             GameObject objSpawned = Instantiate(_prefab, _waypoint.position, Quaternion.identity);
             yield return new WaitForSeconds(2);
-            Destroy(objSpawned);
+            objSpawned.SetActive(false);
         }
     }
 
@@ -41,8 +41,7 @@ public class CubeBehaviour : MonoBehaviour
             {
                 yield return LerpCoroutine(objSpawned, _waypoints[i].position, _waypoints[i + 1].position);
             }
-
-            Destroy(objSpawned);
+            objSpawned.SetActive(false);
         }
     }
 
