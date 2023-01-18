@@ -25,7 +25,7 @@ public class CubeBehaviour : MonoBehaviour
         foreach (Transform _waypoint in _waypoints)
         {
             GameObject objSpawned = Instantiate(_prefab, _waypoint.position, Quaternion.identity);
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSecondsRealtime(2f);
             objSpawned.SetActive(false);
         }
     }
